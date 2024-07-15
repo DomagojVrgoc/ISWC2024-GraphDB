@@ -4,23 +4,23 @@ Graph databases have received a lot of attention in recent years, mostly due to 
 # Schedule:
 The tutorial is divided into four largely independent sections. In the first section we will introduce attendees to popular graph data models and query languages and try to bridge the gap between RDF and property graphs, opening the floor to discussion on the appropriate formalism for representing knowledge graphs. The second section will overview worst-case optimal algorithms, a recent advancement in join processing, and show how this theoretical concept can be adapted in practice to evaluate basic graph patterns. The third section deals with path queries and shows how to adapt an old idea from database theory to efficiently compute a representation of a potentially exponential set of paths in linear time. In the final section we introduce MillenniumDB, a system build on these ideas with the goal of managing Wikidata and discuss what it takes to make theory work in practice at this scale. Apart from the open discussion sessions, the interactive portion of the tutorial will also include a series of endpoints hosted in MillenniumDB and allowing to try these techniques over different RDF and property graph datasets.
 
-# Preprint: [preprint](https://raw.githubusercontent.com/DomagojVrgoc/ISWC2024-Tutorial-Recent-advancements-in-Graph-Data-Management/main/ISWC_Tutorial.pdf)
+# Preprint: [preprint](https://raw.githubusercontent.com/DomagojVrgoc/ISWC2024-GraphDB/main/ISWC_Tutorial.pdf)
 
 # Endpoint details (in preparation):
 
 ## SPARQL Endpoints:
 
-### Full Wikidata (RDF/SPARQL): https://wikidata.imfd.cl/
+### Full Wikidata (RDF/SPARQL): [https://wikidata.imfd.cl/](https://wikidata.imfd.cl/)
 
-### Wikidata Truthy (RDF/Extended SPARQL): https://mdb.imfd.cl/path_finder/sparql
+### Wikidata Truthy (RDF/Extended SPARQL): [https://mdb.imfd.cl/path_finder/sparql](https://mdb.imfd.cl/path_finder/sparql)
 
 ## Property graph endpoints:
 
-### Wikidata Truthy: https://mdb.imfd.cl/path_finder/gql
+### Wikidata Truthy: [https://mdb.imfd.cl/path_finder/gql](https://mdb.imfd.cl/path_finder/gql)
 
-### BibKG: https://bibkg.imfd.cl/
+### BibKG: [https://bibkg.imfd.cl/](https://bibkg.imfd.cl/)
 
-### TelarKG: https://telarkg.imfd.cl/
+### TelarKG: [https://telarkg.imfd.cl/](https://telarkg.imfd.cl/)
 
 # Slides:
 In preparation ... 
