@@ -48,8 +48,7 @@ During the tutorial users will be able to post queries over live points we prepa
 #### TelarKG: [https://telarkg.imfd.cl/](https://telarkg.imfd.cl/)
 
 ## Slides:
-In preparation ... 
-
+[Preliminary version](ISWC-2024-Graph-Databases.pdf)
 ## References
 1. Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia d'Amato, Gerard de Melo, Claudio Gutierrez, Sabrina Kirrane, José Emilio Labra Gayo, Roberto Navigli, Sebastian Neumaier, Axel-Cyrille Ngonga Ngomo, Axel Polleres, Sabbir M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan F. Sequeda, Steffen Staab, Antoine Zimmermann: Knowledge Graphs. ACM Comput. Surv. 54(4): 71:1-71:37 (2022)
 2. Aidan Hogan: The Web of Data. Springer 2020, ISBN 978-3-030-51579-9, pp. 1-642
