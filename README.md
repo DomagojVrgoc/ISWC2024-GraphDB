@@ -12,19 +12,21 @@ Graph databases have received a lot of attention in recent years, mostly due to 
 ## Program:
 The tutorial is divided into four largely independent sections. In the first section we will introduce attendees to popular graph data models and query languages and try to bridge the gap between RDF and property graphs, opening the floor to discussion on the appropriate formalism for representing knowledge graphs. The second section will overview worst-case optimal algorithms, a recent advancement in join processing, and show how this theoretical concept can be adapted in practice to evaluate basic graph patterns. The third section deals with path queries and shows how to adapt an old idea from database theory to efficiently compute a representation of a potentially exponential set of paths in linear time. In the final section we introduce MillenniumDB, a system build on these ideas with the goal of managing Wikidata and discuss what it takes to make theory work in practice at this scale. Apart from the open discussion sessions, the interactive portion of the tutorial will also include a series of endpoints hosted in MillenniumDB and allowing to try these techniques over different RDF and property graph datasets.
 
-## Schedule (subject to change):
-- 14:00 - 14:10 : Knowledge Graphs and Graph Databases
-- 14:10 - 14:20 : Graph Data Models
-- 14:20 - 14:30 : Open discussion on the "Suitability of existing graph data models"
-- 14:30 - 14:50 : Graph Query Languages (SPARQL and GQL)
-- 14:50 - 15:00 : Open discussion on "What is missing in graph query languages"
-- 15:00 - 15:20 : What are worst-case optimal join algorithms?
-- 15:20 - 15:40 : Leapfrog Trie-Join Algorithm
+## Schedule:
+- 14:00 - 15:00 : Part 1: Graph Databases: data and queries
+- 15:00 - 15:10 : Open discussion on the "Suitability of existing graph data models and query languages"
+- 15:10 - 15:40 : Part 2: Worst-case optimal join algorithms (here we explain the AGM bound)
 - 15:40 - 16:00 : Break
-- 16:00 - 16:20 : Implementing Leapfrog-Triejoin in Graph Databases
-- 16:20 - 17:00 : Evaluating path queries
-- 17:00 - 17:30 : Lessons learned in implementing the MillenniumDB Graph Database Engine
+- 16:00 - 16:30 : Part 2 (cont): Worst-case optimal join algorithms (Leapfrog-Triejoin)
+- 16:30 - 17:20 : Part 3: Evaluating path queries
+- 17:20 - 17:30 : Part 4: Lessons learned in implementing the MillenniumDB Graph Database Engine
 - 17:30 - 17:40 : Closing discussion: "What do you want from a Graph Database engine?"
+
+## Who is this for?
+- Part 1: If you know nothing about graph databases you will get the gist. If you are a practitioner, we will discuss how good the current models and query languages are, and give a broad classification of these features.
+- Part 2: If you wish to learn what are worst-case optimal algorithms and see what is needed to implement them (we will also gove a detailed explanation of one such algorithm and showcase how it works in practice).
+- Part 3: If you wish to learn how one can traverse graphs via arbitrary length paths and also return such paths according to GQL.
+- Part 4: If you wish to learn about the graph engine we built based on techniques presented in this tutorial.
 
 ## Attend prepared:
 During the tutorial users will be able to post queries over live points we prepared and are hosting using the MillenniumDB engine. For this having a web browser and an internet connection will suffice. Links to the endpoints that will be used to illustrate our examples are provided below.
