@@ -23,8 +23,8 @@ The tutorial is divided into four largely independent sections. In the first sec
 - 17:30 - 17:40 : Closing discussion: "What do you want from a Graph Database engine?"
 
 ## Who is this for?
-- Part 1: If you know nothing about graph databases you will get the gist. If you are a practitioner, we will discuss how good the current models and query languages are, and give a broad classification of these features.
-- Part 2: If you wish to learn what are worst-case optimal algorithms and see what is needed to implement them (we will also gove a detailed explanation of one such algorithm and showcase how it works in practice).
+- Part 1: If you know nothing about graph databases you will get the gist. If you are a practitioner, we will discuss how good the current models and query languages are, and give a broad classification of common features.
+- Part 2: If you wish to learn what are worst-case optimal algorithms and see what is needed to implement them (we will also give a detailed explanation of one such algorithm and showcase how it works in practice).
 - Part 3: If you wish to learn how one can traverse graphs via arbitrary length paths and also return such paths according to GQL.
 - Part 4: If you wish to learn about the graph engine we built based on techniques presented in this tutorial.
 
