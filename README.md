@@ -1,8 +1,8 @@
 # Recent advances in Graph Data Management
 
-Author: Domagoj Vrgoč
+Presenter: Domagoj Vrgoč
 
-Date and Time: Monday, November 11th (Part 1: 14:00 - 15:40, Part 2: 16:00 - 17:40)
+Date and Time: Monday, November 11th (Session 1: 14:00 - 15:40, Session 2: 16:00 - 17:40)
 
 Details: [preprint](https://raw.githubusercontent.com/DomagojVrgoc/ISWC2024-GraphDB/main/ISWC_Tutorial.pdf)
 
